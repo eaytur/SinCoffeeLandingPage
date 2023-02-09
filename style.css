@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* NAV */
+
+nav{
+    box-shadow: 0 1px 3px rgb(0 0 0 /10%), 0 2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgb(0 0 0 / 7%);
+}
+
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.nav-left{
+    display: flex;
+}
+
+.nav-left p{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 40px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.nav-left ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left ul li{
+    display: flex;
+    margin: 0 10px;
+    width: auto;
+}
+
+.nav-left ul li a{
+    color: #333;
+    padding: 0 10px;
+}
+
+
+.nav-left ul li:hover{
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-right button{
+    margin-left: 20px;
+}
+
+.btn{
+    padding:6.4px 16px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.btn-primary{
+    border: 1px solid #333;
+}
+
+.btn-primary:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+
+/* main content */
+
+.box{
+    margin-top: 32px;
+}
+
+.box .container{
+    display: flex;
+}
+
+.box-text{
+    width: 50%;
+    padding: 32px 80px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-text h1{
+    font-size: 36px;
+}
+
+.box-text p{
+    margin: 60px;
+    margin-bottom: 32px;
+    font-size: 16px;
+}
+
+.box-img{
+    width: 50%;
+}
+
+.box-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.lg{
+    font-size: 36px !important;
+}
+
+.p-lg{
+    font-size: 16px !important;
+}
+
+.mt-0{
+    margin-top: 0 !important;
+}
+
+.btn-white{
+    background-color: #fff;
+    border-color: #fff;
+    color: #333;
+    margin-top: 10px;
+}
+
+.box-secondary .container{
+    flex-direction: row-reverse;
+}
+
+.btn-join{
+    padding-top: 54px;
+}
+
+.cpyr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    margin-top: 5px;
+}
